@@ -193,60 +193,60 @@ default         0;
     sudo ufw allow ssh
     sudo ufw allow http
     sudo ufw allow https
-    sudo ufw allow 3333/tcp
-    sudo ufw allow 3339/tcp
-    sudo ufw allow 3334/tcp
-    sudo ufw allow 3433/tcp
-    sudo ufw allow 3555/tcp
-    sudo ufw allow 3556/tcp
-    sudo ufw allow 3573/tcp
-    sudo ufw allow 3535/tcp
-    sudo ufw allow 3533/tcp
-    sudo ufw allow 3553/tcp
-    sudo ufw allow 3633/tcp
-    sudo ufw allow 3733/tcp
+    #sudo ufw allow 3333/tcp
+    #sudo ufw allow 3339/tcp
+    #sudo ufw allow 3334/tcp
+    #sudo ufw allow 3433/tcp
+    #sudo ufw allow 3555/tcp
+    #sudo ufw allow 3556/tcp
+    #sudo ufw allow 3573/tcp
+    #sudo ufw allow 3535/tcp
+    #sudo ufw allow 3533/tcp
+    #sudo ufw allow 3553/tcp
+    #sudo ufw allow 3633/tcp
+    #sudo ufw allow 3733/tcp
     sudo ufw allow 3636/tcp
-    sudo ufw allow 3737/tcp
-    sudo ufw allow 3739/tcp
-    sudo ufw allow 3747/tcp
-    sudo ufw allow 3833/tcp
-    sudo ufw allow 3933/tcp
-    sudo ufw allow 4033/tcp
-    sudo ufw allow 4133/tcp
-    sudo ufw allow 4233/tcp
-    sudo ufw allow 4234/tcp
-    sudo ufw allow 4333/tcp
-    sudo ufw allow 4433/tcp
-    sudo ufw allow 4533/tcp
-    sudo ufw allow 4553/tcp
-    sudo ufw allow 4633/tcp
-    sudo ufw allow 4733/tcp
-    sudo ufw allow 4833/tcp
-    sudo ufw allow 4933/tcp
-    sudo ufw allow 5033/tcp
-    sudo ufw allow 5133/tcp
-    sudo ufw allow 5233/tcp
-    sudo ufw allow 5333/tcp
-    sudo ufw allow 5433/tcp
-    sudo ufw allow 5533/tcp
-    sudo ufw allow 5733/tcp
-    sudo ufw allow 5743/tcp
-    sudo ufw allow 3252/tcp
-    sudo ufw allow 5755/tcp
-    sudo ufw allow 5766/tcp
-    sudo ufw allow 5833/tcp
-    sudo ufw allow 5933/tcp
-    sudo ufw allow 6033/tcp
-    sudo ufw allow 5034/tcp
-    sudo ufw allow 6133/tcp
-    sudo ufw allow 6233/tcp
-    sudo ufw allow 6333/tcp
-    sudo ufw allow 6433/tcp
-    sudo ufw allow 7433/tcp
-    sudo ufw allow 8333/tcp
-    sudo ufw allow 8463/tcp
-    sudo ufw allow 8433/tcp
-    sudo ufw allow 8533/tcp
+    sudo ufw allow 3223/tcp
+    #sudo ufw allow 3739/tcp
+    #sudo ufw allow 3747/tcp
+    #sudo ufw allow 3833/tcp
+    #sudo ufw allow 3933/tcp
+    #sudo ufw allow 4033/tcp
+    #sudo ufw allow 4133/tcp
+    #sudo ufw allow 4233/tcp
+    #sudo ufw allow 4234/tcp
+    #sudo ufw allow 4333/tcp
+    #sudo ufw allow 4433/tcp
+    #sudo ufw allow 4533/tcp
+    #sudo ufw allow 4553/tcp
+    #sudo ufw allow 4633/tcp
+    #sudo ufw allow 4733/tcp
+    #sudo ufw allow 4833/tcp
+    #sudo ufw allow 4933/tcp
+    #sudo ufw allow 5033/tcp
+    #sudo ufw allow 5133/tcp
+    #sudo ufw allow 5233/tcp
+    #sudo ufw allow 5333/tcp
+    #sudo ufw allow 5433/tcp
+    #sudo ufw allow 5533/tcp
+    #sudo ufw allow 5733/tcp
+    #sudo ufw allow 5743/tcp
+    #sudo ufw allow 3252/tcp
+    #sudo ufw allow 5755/tcp
+    #sudo ufw allow 5766/tcp
+    #sudo ufw allow 5833/tcp
+    #sudo ufw allow 5933/tcp
+    #sudo ufw allow 6033/tcp
+    #sudo ufw allow 5034/tcp
+    #sudo ufw allow 6133/tcp
+    #sudo ufw allow 6233/tcp
+    #sudo ufw allow 6333/tcp
+    #sudo ufw allow 6433/tcp
+    #sudo ufw allow 7433/tcp
+    #sudo ufw allow 8333/tcp
+    #sudo ufw allow 8463/tcp
+    #sudo ufw allow 8433/tcp
+    #sudo ufw allow 8533/tcp
     sudo ufw --force enable    
     fi
     
@@ -902,7 +902,7 @@ define('"'"'YAAMP_PAYMENTS_FREQ'"'"', 2*60*60);
 define('"'"'YAAMP_PAYMENTS_MINI'"'"', 0.001);
 define('"'"'YAAMP_ALLOW_EXCHANGE'"'"', false);
 define('"'"'YIIMP_PUBLIC_EXPLORER'"'"', true);
-define('"'"'YIIMP_PUBLIC_BENCHMARK'"'"', true);
+define('"'"'YIIMP_PUBLIC_BENCHMARK'"'"', false);
 define('"'"'YIIMP_FIAT_ALTERNATIVE'"'"', '"'"'USD'"'"'); // USD is main
 define('"'"'YAAMP_USE_NICEHASH_API'"'"', false);
 define('"'"'YAAMP_BTCADDRESS'"'"', '"'"'1C1hnjk3WhuAvUN6Ny6LTxPD3rwSZwapW7'"'"');
@@ -916,28 +916,28 @@ define('"'"'YAAMP_NOTIFY_NEW_COINS'"'"', true);
 define('"'"'YAAMP_DEFAULT_ALGO'"'"', '"'"'x11'"'"');
 define('"'"'YAAMP_USE_NGINX'"'"', true);
 // Exchange public keys (private keys are in a separate config file)
-define('"'"'EXCH_CRYPTOPIA_KEY'"'"', '"'"''"'"');
-define('"'"'EXCH_POLONIEX_KEY'"'"', '"'"''"'"');
+//define('"'"'EXCH_CRYPTOPIA_KEY'"'"', '"'"''"'"');
+//define('"'"'EXCH_POLONIEX_KEY'"'"', '"'"''"'"');
 define('"'"'EXCH_BITTREX_KEY'"'"', '"'"''"'"');
-define('"'"'EXCH_BLEUTRADE_KEY'"'"', '"'"''"'"');
-define('"'"'EXCH_BTER_KEY'"'"', '"'"''"'"');
-define('"'"'EXCH_YOBIT_KEY'"'"', '"'"''"'"');
-define('"'"'EXCH_CCEX_KEY'"'"', '"'"''"'"');
-define('"'"'EXCH_COINMARKETS_USER'"'"', '"'"''"'"');
-define('"'"'EXCH_COINMARKETS_PIN'"'"', '"'"''"'"');
-define('"'"'EXCH_BITSTAMP_ID'"'"','"'"''"'"');
-define('"'"'EXCH_BITSTAMP_KEY'"'"','"'"''"'"');
-define('"'"'EXCH_HITBTC_KEY'"'"','"'"''"'"');
-define('"'"'EXCH_KRAKEN_KEY'"'"', '"'"''"'"');
-define('"'"'EXCH_LIVECOIN_KEY'"'"', '"'"''"'"');
-define('"'"'EXCH_NOVA_KEY'"'"', '"'"''"'"');
+//define('"'"'EXCH_BLEUTRADE_KEY'"'"', '"'"''"'"');
+//define('"'"'EXCH_BTER_KEY'"'"', '"'"''"'"');
+//define('"'"'EXCH_YOBIT_KEY'"'"', '"'"''"'"');
+//define('"'"'EXCH_CCEX_KEY'"'"', '"'"''"'"');
+//define('"'"'EXCH_COINMARKETS_USER'"'"', '"'"''"'"');
+//define('"'"'EXCH_COINMARKETS_PIN'"'"', '"'"''"'"');
+//define('"'"'EXCH_BITSTAMP_ID'"'"','"'"''"'"');
+//define('"'"'EXCH_BITSTAMP_KEY'"'"','"'"''"'"');
+//define('"'"'EXCH_HITBTC_KEY'"'"','"'"''"'"');
+//define('"'"'EXCH_KRAKEN_KEY'"'"', '"'"''"'"');
+//define('"'"'EXCH_LIVECOIN_KEY'"'"', '"'"''"'"');
+//define('"'"'EXCH_NOVA_KEY'"'"', '"'"''"'"');
 // Automatic withdraw to Yaamp btc wallet if btc balance > 0.3
-define('"'"'EXCH_AUTO_WITHDRAW'"'"', 0.3);
+//define('"'"'EXCH_AUTO_WITHDRAW'"'"', 0.3);
 // nicehash keys deposit account & amount to deposit at a time
-define('"'"'NICEHASH_API_KEY'"'"','"'"'f96c65a7-3d2f-4f3a-815c-cacf00674396'"'"');
-define('"'"'NICEHASH_API_ID'"'"','"'"'825979'"'"');
-define('"'"'NICEHASH_DEPOSIT'"'"','"'"'3ABoqBjeorjzbyHmGMppM62YLssUgJhtuf'"'"');
-define('"'"'NICEHASH_DEPOSIT_AMOUNT'"'"','"'"'0.01'"'"');
+//define('"'"'NICEHASH_API_KEY'"'"','"'"'f96c65a7-3d2f-4f3a-815c-cacf00674396'"'"');
+//define('"'"'NICEHASH_API_ID'"'"','"'"'825979'"'"');
+//define('"'"'NICEHASH_DEPOSIT'"'"','"'"'3ABoqBjeorjzbyHmGMppM62YLssUgJhtuf'"'"');
+//define('"'"'NICEHASH_DEPOSIT_AMOUNT'"'"','"'"'0.01'"'"');
 $cold_wallet_table = array(
 	'"'"'1PqjApUdjwU9k4v1RDWf6XveARyEXaiGUz'"'"' => 0.10,
 );
