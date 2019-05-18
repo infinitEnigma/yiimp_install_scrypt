@@ -916,28 +916,28 @@ define('"'"'YAAMP_NOTIFY_NEW_COINS'"'"', true);
 define('"'"'YAAMP_DEFAULT_ALGO'"'"', '"'"'x11'"'"');
 define('"'"'YAAMP_USE_NGINX'"'"', true);
 // Exchange public keys (private keys are in a separate config file)
-//define('"'"'EXCH_CRYPTOPIA_KEY'"'"', '"'"''"'"');
-//define('"'"'EXCH_POLONIEX_KEY'"'"', '"'"''"'"');
+define('"'"'EXCH_CRYPTOPIA_KEY'"'"', '"'"''"'"');
+define('"'"'EXCH_POLONIEX_KEY'"'"', '"'"''"'"');
 define('"'"'EXCH_BITTREX_KEY'"'"', '"'"''"'"');
-//define('"'"'EXCH_BLEUTRADE_KEY'"'"', '"'"''"'"');
-//define('"'"'EXCH_BTER_KEY'"'"', '"'"''"'"');
-//define('"'"'EXCH_YOBIT_KEY'"'"', '"'"''"'"');
-//define('"'"'EXCH_CCEX_KEY'"'"', '"'"''"'"');
-//define('"'"'EXCH_COINMARKETS_USER'"'"', '"'"''"'"');
-//define('"'"'EXCH_COINMARKETS_PIN'"'"', '"'"''"'"');
-//define('"'"'EXCH_BITSTAMP_ID'"'"','"'"''"'"');
-//define('"'"'EXCH_BITSTAMP_KEY'"'"','"'"''"'"');
-//define('"'"'EXCH_HITBTC_KEY'"'"','"'"''"'"');
-//define('"'"'EXCH_KRAKEN_KEY'"'"', '"'"''"'"');
-//define('"'"'EXCH_LIVECOIN_KEY'"'"', '"'"''"'"');
-//define('"'"'EXCH_NOVA_KEY'"'"', '"'"''"'"');
+define('"'"'EXCH_BLEUTRADE_KEY'"'"', '"'"''"'"');
+define('"'"'EXCH_BTER_KEY'"'"', '"'"''"'"');
+define('"'"'EXCH_YOBIT_KEY'"'"', '"'"''"'"');
+define('"'"'EXCH_CCEX_KEY'"'"', '"'"''"'"');
+define('"'"'EXCH_COINMARKETS_USER'"'"', '"'"''"'"');
+define('"'"'EXCH_COINMARKETS_PIN'"'"', '"'"''"'"');
+define('"'"'EXCH_BITSTAMP_ID'"'"','"'"''"'"');
+define('"'"'EXCH_BITSTAMP_KEY'"'"','"'"''"'"');
+define('"'"'EXCH_HITBTC_KEY'"'"','"'"''"'"');
+define('"'"'EXCH_KRAKEN_KEY'"'"', '"'"''"'"');
+define('"'"'EXCH_LIVECOIN_KEY'"'"', '"'"''"'"');
+define('"'"'EXCH_NOVA_KEY'"'"', '"'"''"'"');
 // Automatic withdraw to Yaamp btc wallet if btc balance > 0.3
-//define('"'"'EXCH_AUTO_WITHDRAW'"'"', 0.3);
+define('"'"'EXCH_AUTO_WITHDRAW'"'"', 0.3);
 // nicehash keys deposit account & amount to deposit at a time
-//define('"'"'NICEHASH_API_KEY'"'"','"'"'f96c65a7-3d2f-4f3a-815c-cacf00674396'"'"');
-//define('"'"'NICEHASH_API_ID'"'"','"'"'825979'"'"');
-//define('"'"'NICEHASH_DEPOSIT'"'"','"'"'3ABoqBjeorjzbyHmGMppM62YLssUgJhtuf'"'"');
-//define('"'"'NICEHASH_DEPOSIT_AMOUNT'"'"','"'"'0.01'"'"');
+define('"'"'NICEHASH_API_KEY'"'"','"'"'f96c65a7-3d2f-4f3a-815c-cacf00674396'"'"');
+define('"'"'NICEHASH_API_ID'"'"','"'"'825979'"'"');
+define('"'"'NICEHASH_DEPOSIT'"'"','"'"'3ABoqBjeorjzbyHmGMppM62YLssUgJhtuf'"'"');
+define('"'"'NICEHASH_DEPOSIT_AMOUNT'"'"','"'"'0.01'"'"');
 $cold_wallet_table = array(
 	'"'"'1PqjApUdjwU9k4v1RDWf6XveARyEXaiGUz'"'"' => 0.10,
 );
