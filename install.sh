@@ -270,7 +270,7 @@ default         0;
     output " "
     output " Installing Yiimp"
     output " "
-    output "Grabbing yiimp fron Github, building files and setting file structure."
+    output "Grabbing yiimp from Github, building files and setting file structure."
     output " "
     sleep 3
     
@@ -827,7 +827,7 @@ define('"'"'EXCH_BITTREX_SECRET'"'"', '"'"'<my_bittrex_api_secret_key>'"'"');
 define('"'"'EXCH_BITSTAMP_SECRET'"'"','"'"''"'"');
 define('"'"'EXCH_BLEUTRADE_SECRET'"'"', '"'"''"'"');
 define('"'"'EXCH_BTER_SECRET'"'"', '"'"''"'"');
-define('"'"'EXCH_CCEX_SECRET'"'"', '"'"''"'"');
+define('"'"'EXCH_CREX24_SECRET'"'"', '"'"''"'"');
 define('"'"'EXCH_COINMARKETS_PASS'"'"', '"'"''"'"');
 define('"'"'EXCH_CRYPTOPIA_SECRET'"'"', '"'"''"'"');
 define('"'"'EXCH_EMPOEX_SECKEY'"'"', '"'"''"'"');
@@ -922,7 +922,7 @@ define('"'"'EXCH_BITTREX_KEY'"'"', '"'"''"'"');
 define('"'"'EXCH_BLEUTRADE_KEY'"'"', '"'"''"'"');
 define('"'"'EXCH_BTER_KEY'"'"', '"'"''"'"');
 define('"'"'EXCH_YOBIT_KEY'"'"', '"'"''"'"');
-define('"'"'EXCH_CCEX_KEY'"'"', '"'"''"'"');
+define('"'"'EXCH_CREX24_KEY'"'"', '"'"''"'"');
 define('"'"'EXCH_COINMARKETS_USER'"'"', '"'"''"'"');
 define('"'"'EXCH_COINMARKETS_PIN'"'"', '"'"''"'"');
 define('"'"'EXCH_BITSTAMP_ID'"'"','"'"''"'"');
