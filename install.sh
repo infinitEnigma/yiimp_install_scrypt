@@ -852,7 +852,7 @@ define('"'"'EXCH_YOBIT_SECRET'"'"', '"'"''"'"');
     cd yiimp/sql
     
     # Import sql dump
-    sudo zcat 2016-04-03-yaamp.sql.gz | sudo mysql --defaults-group-suffix=host1
+    sudo zcat 2019-06-06-yaamp.sql.gz | sudo mysql --defaults-group-suffix=host1
     
     # Oh the humanity!
     sudo mysql --defaults-group-suffix=host1 --force < 2016-04-24-market_history.sql
