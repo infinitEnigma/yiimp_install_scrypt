@@ -281,7 +281,7 @@ default         0;
     
     # Compil Blocknotify
     cd ~
-    git clone https://github.com/infinitEnigma/yiimp.git
+    git clone https://github.com/infinitEnigma/yiimp-sin.git
     cd $HOME/yiimp/blocknotify
     sudo sed -i 's/tu8tu5/'$blckntifypass'/' blocknotify.cpp
     sudo make
