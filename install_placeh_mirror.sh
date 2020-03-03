@@ -1,11 +1,7 @@
 #!bin/bash
-######################################################################################################
-# Author: infinitEnigma (https://github.com/infinitEnigma/Placeholders-X16R/placeh_install_scrypt.sh)#
-# Web:                                                                                               #
-#                                                                                                    #
-# Program:                                                                                           #
-#   Install placeh mirror repository (AWS Ubuntu 18)                                                 #
-######################################################################################################
+#####################################################
+#   Install placeh mirror repository (Ubuntu 18)    #
+#####################################################
     output() {
 	      printf "\E[0;33;40m"
         echo $1
