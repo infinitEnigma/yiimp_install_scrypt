@@ -1,4 +1,4 @@
-
+#!bin/bash
 ######################################################################################################
 # Author: infinitEnigma (https://github.com/infinitEnigma/Placeholders-X16R/placeh_install_scrypt.sh)#
 # Web:                                                                                               #
